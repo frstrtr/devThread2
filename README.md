@@ -16,6 +16,10 @@ C++20, CMake 3.16+
 
 Нужно коммитить решение, если есть какие-то изменения или решения что-то переделать, то нужно закоммитить это.
 Решение пушится в виде pull request'a на репозиторий: https://github.com/frstrtr/devThread2
+  
+Схема работы Celery
+-------------------------
+![Celery схема](https://github.com/frstrtr/devThread2/blob/main/django-celery.png)
 
 Суть задачи
 -------------------------
