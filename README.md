@@ -14,7 +14,7 @@ C++20, CMake 3.16+
   
 ...<работа программы>...
   
-shared_ptr<Task> hard_task = create_task([](){
+shared_ptr<Task> hard_task = worker->create_task([](){
   ...<тяжелые вычисления>...
   return <результат вычислений>;
 });
