@@ -13,7 +13,7 @@ C++20, CMake 3.16+
   
 ...<работа программы>...
   
-auto* hard_task = create_task([](){
+shared_ptr<Task> hard_task = create_task([](){
   ...<тяжелые вычисления>...
   return <результат вычислений>;
 });
